@@ -4,33 +4,31 @@
   "description": "A node.js client for cleverbot.io",
   "main": "app.js",
   "scripts": {
-    "test": "node .t"
+    "test": "node example.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cleverbotIO/node-cleverbot.io"
+    "url": "https://github.com/NikoBotDev/node-cleverbot.io"
   },
-  "author": "David Tesler",
+  "author": "David Tesler(base), Lolligerjoj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cleverbotIO/node-cleverbot.io/issues"
+    "url": "https://github.com/NikoBotDev/node-cleverbot.io/issues"
   },
-  "homepage": "https://github.com/cleverbotIO/node-cleverbot.io",
+  "homepage": "https://github.com/NikoBotDev/node-cleverbot.io",
   "dependencies": {
-    "request": "^2.53.0"
+    "superagent": "^3.8.3"
   },
-  "devDependencies": {},
-  "_shasum": "59e7d9ccb1ffb912ae8af7ace9c4150b1f13568d",
-  "_from": "cleverbot.io@",
   "keywords": [
     "cleverbot",
     "developers",
     "cloud",
     "based",
-    "official",
+    "unofficial",
+    "promise",
     "track",
     "open",
     "source",
-	"api"
+    "api"
   ]
 }
