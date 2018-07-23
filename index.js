@@ -48,6 +48,10 @@ class CleverBot {
           text: input
         })
         .then((req) => {
+          const response = req.body.response;
+          if (response === 'undefined') {
+            reject(new Error('Fail to get a proper response...'));
+          }
           resolve(req.body.response);
         })
         .catch((e) => reject(e.response.error))
