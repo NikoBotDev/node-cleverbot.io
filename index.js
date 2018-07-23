@@ -26,7 +26,7 @@ class CleverBot {
         .then((req) => {
           const nick = req.body.nick;
           this.nick = nick;
-          resolve();
+          resolve(this);
         })
         .catch((e) => reject(e.response.error));
     });
